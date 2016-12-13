@@ -217,8 +217,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				HEADER_SEARCH_PATHS = (
+					"$(SRCROOT)/../../React/**",
 					"$(inherited)",
-					"$(BUILT_PRODUCTS_DIR)/usr/local/include",
+					"$(SRCROOT)/node_modules/react-native/React/**",
+					"$(SRCROOT)/../react-native/React/**",
+					"$(SRCROOT)/../../../node_modules/react-native/React/**",
 				);
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				OTHER_LDFLAGS = "-ObjC";
@@ -231,8 +234,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				HEADER_SEARCH_PATHS = (
+					"$(SRCROOT)/../../React/**",
 					"$(inherited)",
-					"$(BUILT_PRODUCTS_DIR)/usr/local/include",
+					"$(SRCROOT)/node_modules/react-native/React/**",
+					"$(SRCROOT)/../react-native/React/**",
+					"$(SRCROOT)/../../../node_modules/react-native/React/**",
 				);
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				OTHER_LDFLAGS = "-ObjC";
